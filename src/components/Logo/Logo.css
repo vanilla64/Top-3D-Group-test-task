@@ -30,3 +30,25 @@
 .logo__text_type_red {
   color: #D2001C;
 }
+
+@media screen and (max-width: 980px) {
+  .logo {
+    width: 64px;
+    margin: 0 8px 0 0;
+  }
+
+  .logo__title {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .logo {
+    width: 54px;
+  }
+
+  .logo__img {
+    width: 54px;
+    height: 63px;
+  }
+}

@@ -159,15 +159,22 @@
 }
 
 .header__navigation-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /*display: flex;*/
+  /*justify-content: space-between;*/
+  /*align-items: center;*/
+  /*flex-wrap: wrap;*/
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 7px;
   padding: 21px 0 22px;
   margin: 0;
   list-style-type: none;
 }
 
 .header__navigation-list-item {
+  /*margin: 0 0 5px;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -193,6 +200,7 @@
   position: fixed;
   top: -100%;
   left: 0;
+  z-index: 3;
   width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 0, .2);
@@ -207,10 +215,26 @@
   .header__contacts-container {
     width: 90%;
   }
+
+  .header__main-block {
+    width: 90%;
+  }
+
+  .header__navigation {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 1050px) {
   .header__contacts-container {
+    width: 95%;
+  }
+
+  .header__main-block {
+    width: 95%;
+  }
+
+  .header__navigation {
     width: 95%;
   }
 
@@ -231,6 +255,13 @@
   }
 }
 
+@media screen and (max-width: 1280px) {
+  .header__navigation-list {
+    grid-template-rows: 2fr;
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
 @media screen and (max-width: 915px) {
   .header__working-hours {
     display: none;
@@ -245,6 +276,7 @@
     position: absolute;
     top: -100%;
     right: calc(50% - 90px);
+    z-index: 3;
     transition: .3s;
   }
 
@@ -254,5 +286,32 @@
 
   .header__contacts-item {
     margin: 0 0 10px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .header__navigation-list {
+    grid-template-rows: 3fr;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .header__navigation-list {
+    grid-template-rows: 4fr;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__main-block {
+    padding: 12px 0 16px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .header__navigation {
+    font-size: 10px;
+    line-height: 14px;
   }
 }

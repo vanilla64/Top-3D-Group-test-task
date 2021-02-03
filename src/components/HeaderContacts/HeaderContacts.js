@@ -48,12 +48,18 @@ function HeaderContacts() {
           <li className="header__contacts-item">
             <ul className="header__social-links">
               <li className="header__list-item">
-                <a className="header__link" href="https://telegram.org/" target="_blank">
+                <a
+                  className="header__link"
+                  href="https://telegram.org/"
+                  target="_blank" rel="noreferrer">
                   <img className="header__icon" src={tgIcon} alt="Telegram"/>
                 </a>
               </li>
               <li className="header__list-item">
-                <a className="header__link" href="https://www.skype.com/ru/" target="_blank">
+                <a
+                  className="header__link"
+                  href="https://www.skype.com/ru/"
+                  target="_blank" rel="noreferrer">
                   <img className="header__icon" src={skypeIcon} alt="Skype"/>
                 </a>
               </li>

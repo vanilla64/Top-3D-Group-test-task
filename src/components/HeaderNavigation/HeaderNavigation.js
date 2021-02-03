@@ -6,11 +6,11 @@ function HeaderNavigation(props) {
     <nav className="header__navigation">
       <ul className="header__navigation-list">
         <li className="header__navigation-list-item">
-          <p className="header__navigation-text">3D-принтеры</p>
+          <p className="header__navigation-text">3D-&nbsp;принтеры</p>
           <img className="header__navigation-img" src={dropDownLight} alt="Иконка выпадающего меню"/>
         </li>
         <li className="header__navigation-list-item">
-          <p className="header__navigation-text">3D-сканеры</p>
+          <p className="header__navigation-text">3D-&nbsp;сканеры</p>
           <img className="header__navigation-img" src={dropDownLight} alt="Иконка выпадающего меню"/>
         </li>
         <li className="header__navigation-list-item">
@@ -46,7 +46,7 @@ function HeaderNavigation(props) {
           <img className="header__navigation-img" src={dropDownLight} alt="Иконка выпадающего меню"/>
         </li>
         <li className="header__navigation-list-item">
-          <p className="header__navigation-text">Учебный центр</p>
+          <p className="header__navigation-text">Учебный&nbsp;центр</p>
           <img className="header__navigation-img" src={dropDownLight} alt="Иконка выпадающего меню"/>
         </li>
         <li className="header__navigation-list-item">

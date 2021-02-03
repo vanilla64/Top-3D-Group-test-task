@@ -34,3 +34,38 @@
   line-height: 18px;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 768px) {
+  .cart-btn {
+    width: 110px;
+  }
+
+  .cart-btn__text {
+    font-size: 10px;
+  }
+
+  .cart-btn__img {
+    margin: 0 5px 0 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .cart-btn {
+    width: 36px;
+    height: 36px;
+  }
+  .cart-btn__text {
+    display: none;
+  }
+
+  .cart-btn__img {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cart-btn {
+    width: 30px;
+    height: 30px;
+  }
+}

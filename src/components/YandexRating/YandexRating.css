@@ -19,3 +19,9 @@
   object-fit: contain;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 768px) {
+  .yandex-rating {
+    display: none;
+  }
+}
