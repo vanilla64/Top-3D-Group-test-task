@@ -1,0 +1,34 @@
+.auth-btn {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  align-items: center;
+  width: 64px;
+  height: 18px;
+  background: transparent;
+  border: none;
+  outline-style: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.auth-btn:hover {
+  transform: scale(1.08);
+}
+
+.auth-btn__img {
+  width: 18px;
+  height: 18px;
+  object-fit: scale-down;
+}
+
+.auth-btn__text {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #222222;
+}

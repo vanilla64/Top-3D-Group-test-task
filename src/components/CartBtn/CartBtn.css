@@ -1,0 +1,36 @@
+.cart-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 160px;
+  height: 36px;
+  background: #D2001C;
+  border-radius: 4px;
+  border: none;
+  outline-style: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.cart-btn:hover {
+  opacity: .8;
+}
+
+.cart-btn__img {
+  margin: 0 10px 0 0;
+  width: 18px;
+  height: 18px;
+  object-fit: scale-down;
+}
+
+.cart-btn__text {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #FFFFFF;
+}

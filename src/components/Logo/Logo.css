@@ -1,0 +1,32 @@
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 213px;
+  text-decoration: none;
+  color: #000;
+  transition: .1s;
+}
+
+.logo:hover {
+  opacity: .8;
+}
+
+.logo__img {
+  width: 64px;
+  height: 73px;
+  object-fit: contain;
+}
+
+.logo__title {
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  width: 133px;
+}
+
+.logo__text_type_red {
+  color: #D2001C;
+}
