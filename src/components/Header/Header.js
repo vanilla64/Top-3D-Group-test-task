@@ -7,7 +7,7 @@ function Header() {
   return (
     <header className="header">
       <HeaderContacts />
-      <HeaderMainContent />
+      {/*<HeaderMainContent />*/}
     </header>
   );
 }
