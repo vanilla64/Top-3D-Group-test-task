@@ -2,26 +2,52 @@
   font-family: 'Open Sans';
   font-weight: 400;
   font-style: normal;
-  src: url('./opensans.woff'), url('./opensans.woff2');
+  src:
+    url('./opensans.woff') format('woff'),
+    url('./opensans.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Open Sans';
   font-weight: 400;
   font-style: italic;
-  src: url('./opensansitalic.woff'), url('./opensansitalic.woff2');
+  src:
+    url('./opensansitalic.woff') format('woff'),
+    url('./opensansitalic.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Open Sans';
-  src:url('./opensanssemibold.woff2') format('woff2'), url('./opensanssemibold.woff') format('woff');
+  src:
+    url('./opensanssemibold.woff2') format('woff2'),
+    url('./opensanssemibold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Open Sans';
-  src: url('./opensansbold.woff2') format('woff2'), url('./opensansbold.woff') format('woff');
+  src:
+    url('./opensansbold.woff2') format('woff2'),
+    url('./opensansbold.woff') format('woff');
   font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src:
+    url('./SFProDisplay-Regular.woff2') format('woff2'),
+    url('./SFProDisplay-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src:
+    url('./SFProDisplay-Medium.woff2') format('woff2'),
+    url('./SFProDisplay-Medium.woff') format('woff');
+  font-weight: 500;
   font-style: normal;
 }

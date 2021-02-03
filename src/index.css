@@ -1,2 +1,6 @@
 @import url('./vendor/normalize.css');
 @import url('./fonts/fonts.css');
+
+.root {
+  background:  rgba(229, 229, 229, .5);
+}
