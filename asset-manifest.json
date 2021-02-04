@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/top-3d-group-test-task/static/css/main.f3344db8.chunk.css",
+    "main.js": "/top-3d-group-test-task/static/js/main.a76f7ea3.chunk.js",
+    "main.js.map": "/top-3d-group-test-task/static/js/main.a76f7ea3.chunk.js.map",
+    "runtime-main.js": "/top-3d-group-test-task/static/js/runtime-main.68826bd2.js",
+    "runtime-main.js.map": "/top-3d-group-test-task/static/js/runtime-main.68826bd2.js.map",
+    "static/js/2.3a1f07d9.chunk.js": "/top-3d-group-test-task/static/js/2.3a1f07d9.chunk.js",
+    "static/js/2.3a1f07d9.chunk.js.map": "/top-3d-group-test-task/static/js/2.3a1f07d9.chunk.js.map",
+    "index.html": "/top-3d-group-test-task/index.html",
+    "static/css/main.f3344db8.chunk.css.map": "/top-3d-group-test-task/static/css/main.f3344db8.chunk.css.map",
+    "static/js/2.3a1f07d9.chunk.js.LICENSE.txt": "/top-3d-group-test-task/static/js/2.3a1f07d9.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/top-3d-group-test-task/static/media/opensanssemibold.edeadb72.woff",
+    "static/media/cart.6c122b0a.svg": "/top-3d-group-test-task/static/media/cart.6c122b0a.svg",
+    "static/media/drop-down-menu-bold.ec9f7ccf.svg": "/top-3d-group-test-task/static/media/drop-down-menu-bold.ec9f7ccf.svg",
+    "static/media/drop-down-menu-light.a00c46ab.svg": "/top-3d-group-test-task/static/media/drop-down-menu-light.a00c46ab.svg",
+    "static/media/link-icon-gray.439b97eb.svg": "/top-3d-group-test-task/static/media/link-icon-gray.439b97eb.svg",
+    "static/media/link-icon-red.ec7ba52f.svg": "/top-3d-group-test-task/static/media/link-icon-red.ec7ba52f.svg",
+    "static/media/login-icon.be79271f.svg": "/top-3d-group-test-task/static/media/login-icon.be79271f.svg",
+    "static/media/logo.5c20724f.png": "/top-3d-group-test-task/static/media/logo.5c20724f.png",
+    "static/media/loupe.28b6f036.svg": "/top-3d-group-test-task/static/media/loupe.28b6f036.svg",
+    "static/media/phone-icon.741ad674.svg": "/top-3d-group-test-task/static/media/phone-icon.741ad674.svg",
+    "static/media/skype-icon.cde011cb.svg": "/top-3d-group-test-task/static/media/skype-icon.cde011cb.svg",
+    "static/media/swipe-icon.b567ab40.svg": "/top-3d-group-test-task/static/media/swipe-icon.b567ab40.svg",
+    "static/media/team.6fe51f21.png": "/top-3d-group-test-task/static/media/team.6fe51f21.png",
+    "static/media/tg-icon.6fd83916.svg": "/top-3d-group-test-task/static/media/tg-icon.6fd83916.svg",
+    "static/media/yandex-rating.374b2519.png": "/top-3d-group-test-task/static/media/yandex-rating.374b2519.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.68826bd2.js",
+    "static/js/2.3a1f07d9.chunk.js",
+    "static/css/main.f3344db8.chunk.css",
+    "static/js/main.a76f7ea3.chunk.js"
+  ]
+}
