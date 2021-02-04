@@ -92,12 +92,13 @@
 .about__links {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   position: relative;
 }
 
 .about__subtitle {
-  margin: 0;
+  margin: 0 0 50px;
   overflow: no-content;
   font-family: SF Pro Text;
   font-style: normal;
@@ -119,5 +120,38 @@
   z-index: 2;
 }
 
+.about__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 88%;
+}
 
+.about__list-item {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.about__link_type_list-item {
+  margin: 0 15px 28px 0;
+  text-decoration: none;
+  color: #4D4D4D;
+  height: 29px;
+  border-bottom: 1px solid #4D4D4D;
+  transition: .2s;
+}
+
+.about__list-item:hover .about__link_type_list-item {
+  color: #D2001C;
+  border-bottom: 1px solid #D2001C;
+}
+
+.about__icon {
+  color: #D2001C;
+}
 

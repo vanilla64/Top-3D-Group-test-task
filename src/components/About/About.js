@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './About.css'
 import teamImg from '../../images/team.png'
+import iconRed from '../../images/link-icon-red.svg'
+import iconGray from '../../images/link-icon-gray.svg'
 
 function About() {
+  const [isRedIcon, setIsRedIcon] = useState(false);
+
+  const iconToggleHandler = () => {
+    if (isRedIcon) {
+      setIsRedIcon(false)
+    } else {
+      setIsRedIcon(true)
+    }
+  }
+
   return (
     <section className="about">
       <img className="about__img" src={teamImg} alt="Команда"/>
@@ -38,6 +50,26 @@ function About() {
           Лучше один раз увидеть:
         </h3>
         <div className="about__line" />
+        <ul className="about__list">
+          <li
+            onMouseEnter={iconToggleHandler}
+            onMouseLeave={iconToggleHandler}
+            className="about__list-item">
+            <a className="about__link about__link_type_list-item" href="#">Как устроена наша компания изнутри</a>
+            <img className="about__icon" src={isRedIcon ? iconRed : iconGray} alt="Иконка стрелочка"/>
+          </li>
+          <li
+            onMouseEnter={iconToggleHandler}
+            onMouseLeave={iconToggleHandler}
+            className="about__list-item">
+            <a className="about__link about__link_type_list-item" href="#">Как создавалась компания - необычная история</a>
+            <img className="about__icon" src={isRedIcon ? iconRed : iconGray} alt="Иконка стрелочка"/>
+          </li>
+          <li className="about__list-item">
+            <a className="about__link about__link_type_list-item" href="#">Читай о нас на 3D Today</a>
+            <img className="about__icon" src={isRedIcon ? iconRed : iconGray} alt="Иконка стрелочка"/>
+          </li>
+        </ul>
       </div>
     </section>
   );
