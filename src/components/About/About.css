@@ -50,6 +50,7 @@
 }
 
 .about__text {
+  margin: 0 0 20px;
   font-family: SF Pro Text;
   font-style: normal;
   font-weight: 500;
@@ -155,3 +156,132 @@
   color: #D2001C;
 }
 
+@media screen and (max-width: 1220px) {
+  .about__line {
+    width: 70%;
+  }
+
+  .about__list {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1095px) {
+  .about {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .about {
+    width: 95%;
+    padding: 37px 0;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .about__line {
+    width: 65%;
+  }
+
+  .about__list-item {
+    margin: 0 0 10px;
+  }
+
+  .about__list-item:last-child {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 915px) {
+  .about__list {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  .about__line {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__subtitle {
+    margin: 0 0 34px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .about__line {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .about__heading {
+    flex-direction: column;
+    margin: 0 0 35px;
+  }
+
+  .about__img {
+    margin: 0 0 20px;
+  }
+
+  .about__column_left {
+    margin: 0;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__title {
+    width: 85%;
+    margin: 0 0 20px;
+    text-align: center;
+  }
+
+  .about__subtitle {
+    text-align: center;
+    margin: 0 0 25px;
+  }
+
+  .about__button {
+    width: 100%;
+  }
+
+  .about__line {
+    display: none;
+  }
+
+  .about__list {
+    align-items: center;
+  }
+
+  .about__link_type_list-item {
+    margin: 0 5px 0 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .about {
+    width: 95%;
+    padding: 22px 0;
+  }
+
+  .about__title {
+    width: 100%;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .about__link_type_list-item {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .about__link_type_list-item {
+    font-size: 12px;
+  }
+}

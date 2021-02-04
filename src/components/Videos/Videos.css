@@ -29,3 +29,27 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1095px) {
+  .videos__content {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .videos__content {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .videos {
+    padding: 40px 0 34px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .videos__title {
+    margin: 0 0 34px;
+  }
+}

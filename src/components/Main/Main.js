@@ -1,7 +1,7 @@
 import React from 'react';
 import './Main.css'
 import About from "../About/About";
-import Videos from "../AboutVideos/Videos";
+import Videos from "../Videos/Videos";
 
 function Main(props) {
   return (

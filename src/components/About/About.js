@@ -46,9 +46,7 @@ function About() {
         </div>
       </div>
       <div className="about__links">
-        <h3 className="about__subtitle">
-          Лучше один раз увидеть:
-        </h3>
+        <h3 className="about__subtitle">Лучше один раз увидеть:</h3>
         <div className="about__line" />
         <ul className="about__list">
           <li
