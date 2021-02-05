@@ -204,11 +204,14 @@
   z-index: 3;
   width: 100vw;
   height: 100vh;
+  opacity: 0;
   background: rgba(0, 0, 0, .2);
   backdrop-filter: blur(8px);
+  transition: .3s;
 }
 
 .header__overlay_active {
+  opacity: 1;
   top: 0;
 }
 
