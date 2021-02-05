@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/top-3d-group-test-task/static/css/main.d3ca6988.chunk.css",
+    "main.css": "/top-3d-group-test-task/static/css/main.132b70d0.chunk.css",
     "main.js": "/top-3d-group-test-task/static/js/main.0b18c58c.chunk.js",
     "main.js.map": "/top-3d-group-test-task/static/js/main.0b18c58c.chunk.js.map",
     "runtime-main.js": "/top-3d-group-test-task/static/js/runtime-main.68826bd2.js",
@@ -8,7 +8,7 @@
     "static/js/2.3a1f07d9.chunk.js": "/top-3d-group-test-task/static/js/2.3a1f07d9.chunk.js",
     "static/js/2.3a1f07d9.chunk.js.map": "/top-3d-group-test-task/static/js/2.3a1f07d9.chunk.js.map",
     "index.html": "/top-3d-group-test-task/index.html",
-    "static/css/main.d3ca6988.chunk.css.map": "/top-3d-group-test-task/static/css/main.d3ca6988.chunk.css.map",
+    "static/css/main.132b70d0.chunk.css.map": "/top-3d-group-test-task/static/css/main.132b70d0.chunk.css.map",
     "static/js/2.3a1f07d9.chunk.js.LICENSE.txt": "/top-3d-group-test-task/static/js/2.3a1f07d9.chunk.js.LICENSE.txt",
     "static/media/index.css": "/top-3d-group-test-task/static/media/opensanssemibold.edeadb72.woff",
     "static/media/cart.f0ebd284.svg": "/top-3d-group-test-task/static/media/cart.f0ebd284.svg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.68826bd2.js",
     "static/js/2.3a1f07d9.chunk.js",
-    "static/css/main.d3ca6988.chunk.css",
+    "static/css/main.132b70d0.chunk.css",
     "static/js/main.0b18c58c.chunk.js"
   ]
 }
